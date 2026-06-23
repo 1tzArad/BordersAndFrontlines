@@ -128,7 +128,8 @@
         <dependency>
             <groupId>com.github.1tzArad</groupId>
             <artifactId>FrontlineEconomy</artifactId>
-            <version>1.0.0</version>
+            <version>main-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
