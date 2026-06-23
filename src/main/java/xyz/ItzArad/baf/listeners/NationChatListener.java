@@ -18,7 +18,7 @@ public class NationChatListener implements Listener {
     public void onPlayerChat(AsyncChatEvent event){
         if(event.isCancelled()) return;
         Player player = event.getPlayer();
-        BAFPlayer BAFPlayer = BAFPlayer.of(player);
+        BAFPlayer BAFPlayer = xyz.ItzArad.bafLibs.models.BAFPlayer.of(player);
         Nation nation = BAFPlayer.getNation();
         if(nation == null) return;
         if(!NationManager.isNationChatToggle(BAFPlayer)) return;

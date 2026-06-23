@@ -6,7 +6,7 @@ import org.bukkit.command.PluginCommand;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
-import com.github.The1tzArad.FrontlineEconomy.api.EconomyAPI;
+import xyz.ItzArad.frontlineEconomy.api.EconomyAPI;
 import xyz.ItzArad.baf.commands.NationCommands;
 import xyz.ItzArad.baf.listeners.AutoClaimListener;
 import xyz.ItzArad.baf.listeners.CityCoreListener;
