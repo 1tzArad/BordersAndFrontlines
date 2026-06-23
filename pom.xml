@@ -127,9 +127,9 @@
 
         <dependency>
             <groupId>com.github.1tzArad</groupId>
-	        <artifactId>FrontlineEconomy</artifactId>
-            <version>v0.1.18</version>
-        </dependency>
+            <artifactId>FrontlineEconomy</artifactId>
+            <version>v0.1.21</version>
+	    </dependency>
 
         <dependency>
             <groupId>de.bluecolored</groupId>
