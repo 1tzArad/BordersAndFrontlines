@@ -1,0 +1,23 @@
+allow-war: true
+
+worlds:
+  - world
+
+naming:
+  min: 3
+  max: 18
+
+nation:
+  creation-cost: 1000.0
+  minPlayers: 3
+  claim-cost: 50.0
+  unclaim-refund: 40.0
+  nation-chat-format: "&7[&8{rank}&7] &7{player}&8: &7{message}"
+
+city:
+  creation-cost: 300.0
+  destruction-refund: 200.0
+
+port:
+  creation-cost: 500.0
+  destruction-refund: 400.0

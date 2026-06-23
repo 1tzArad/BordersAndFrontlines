@@ -1,0 +1,23 @@
+name: BorderAndFrontlines
+version: '1.0-SNAPSHOT'
+main: xyz.ItzArad.baf.BorderAndFrontlines
+api-version: '1.21'
+contributors: ["1tzArad"]
+depend: ["AnbeEconomy"]
+softdepend:
+  - PlaceholderAPI
+commands:
+  nation:
+    permission: BAF.nation
+    description: "nation commands"
+    aliases:
+      - n
+permissions:
+  BAF.nation:
+    description: "Access to nation commands"
+    default-permission: true
+    children:
+      BAF.nation.create:
+        description: "Access to create a new Nation"
+      BAF.nation.settings:
+        description: "Access to nation settings panel"

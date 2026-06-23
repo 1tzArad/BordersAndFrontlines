@@ -1,0 +1,18 @@
+package xyz.ItzArad.baf.models;
+
+public enum Permissions {
+    VAULT_WITHDRAW,
+    VAULT_DEPOSIT,
+    CAN_CLAIM,
+    MAKE_ALLY,
+    BREAK_ALLY,
+    CAN_UNCLAIM,
+    PLAYER_INVITE,
+    PLAYER_KICK,
+    CREATE_CITY,
+    NATION_CHAT,
+    NATION_SETTINGS_LOW,
+    NATION_SETTINGS_HIGH,
+    MANAGER_PLAYERS,
+    VAULT_COMMANDS
+}
