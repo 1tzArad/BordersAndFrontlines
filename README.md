@@ -40,7 +40,7 @@
 | Dependency | Required | Version |
 |---|---|---|
 | [Paper](https://papermc.io/) | Yes | 1.21+ |
-| [AnbeEconomy](https://github.com/1tzArad) | Yes | 1.0 |
+| [FrontlineEconomy](https://github.com/1tzArad/FrontlineEconomy) | Yes | 1.0 |
 | [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | Soft-depend | 2.12+ |
 | [BlueMap](https://bluemap.bluecolored.de/) | Soft-depend | 2.7+ |
 | Java | Yes | 21+ |
@@ -49,7 +49,7 @@
 
 1. Download the latest `.jar` from [Releases](https://github.com/1tzArad/BorderAndFrontlines/releases).
 2. Place the `.jar` into your server's `plugins/` folder.
-3. Ensure **AnbeEconomy** is installed and enabled.
+3. Ensure **FrontlineEconomy** is installed and enabled.
 4. Restart the server. A `config.yml` will be generated on first startup.
 5. Edit `plugins/BorderAndFrontlines/config.yml` to your preferences and reload.
 
@@ -131,7 +131,7 @@ mvn clean package
 
 The compiled `.jar` will be in `target/`.
 
-> **Note:** AnbeEconomy must be available in your local Maven repository or a configured remote repository for the build to succeed.
+> **Note:** FrontlineEconomy must be available in your local Maven repository or a configured remote repository for the build to succeed.
 
 ## Project Structure
 

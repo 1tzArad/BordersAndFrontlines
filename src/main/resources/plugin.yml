@@ -3,7 +3,7 @@ version: '1.0-SNAPSHOT'
 main: xyz.ItzArad.baf.BorderAndFrontlines
 api-version: '1.21'
 contributors: ["1tzArad"]
-depend: ["AnbeEconomy"]
+  depend: ["FrontlineEconomy"]
 softdepend:
   - PlaceholderAPI
 commands:

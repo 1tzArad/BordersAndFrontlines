@@ -6,7 +6,7 @@ import org.bukkit.command.PluginCommand;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
-import xyz.ItzArad.anbeEconomy.api.EconomyAPI;
+import xyz.The1tzArad.FrontlineEconomy.api.EconomyAPI;
 import xyz.ItzArad.baf.commands.NationCommands;
 import xyz.ItzArad.baf.listeners.AutoClaimListener;
 import xyz.ItzArad.baf.listeners.CityCoreListener;
@@ -86,7 +86,7 @@ public class BorderAndFrontlines extends JavaPlugin {
                 getServer().getServicesManager().getRegistration(EconomyAPI.class);
 
         if (rsp == null) {
-            getLogger().severe("AnbeEconomy not found!");
+            getLogger().severe("FrontlineEconomy not found!");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }

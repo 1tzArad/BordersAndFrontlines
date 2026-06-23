@@ -37,7 +37,7 @@ BAF is a Paper 1.21 Minecraft plugin built as a single Maven module. It follows 
 
 Startup sequence in `onEnable()`:
 
-1. Initialize economy provider (AnbeEconomy via `RegisteredServiceProvider`)
+1. Initialize economy provider (FrontlineEconomy via `RegisteredServiceProvider`)
 2. Load configuration via `Config.init()`
 3. Load all nations from disk via `NationManager.init()`
 4. Register the `/nation` command
@@ -175,7 +175,7 @@ Each `Ranks` record holds a `Set<Permissions>`. Rank comparison uses a numeric `
 | Paper API | provided | Server API |
 | Lombok | provided | Boilerplate reduction (`@Getter`, `@UtilityClass`) |
 | VaultUnlockedAPI | provided | Economy abstraction |
-| AnbeEconomy | provided | Server-specific economy implementation |
+| FrontlineEconomy | provided | Server-specific economy implementation |
 | Triumph GUI | shaded | In-game GUI dialogs |
 | BlueMap API | provided | Web map integration |
 | PlaceholderAPI | provided | Placeholder expansion |

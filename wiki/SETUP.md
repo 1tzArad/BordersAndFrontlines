@@ -6,14 +6,14 @@
 
 - **Minecraft Server:** Paper 1.21 or later
 - **Java:** 21+
-- **Required Plugins:** [AnbeEconomy](https://github.com/1tzArad)
+- **Required Plugins:** [FrontlineEconomy](https://github.com/1tzArad/FrontlineEconomy)
 - **Optional Plugins:** [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) 2.12+, [BlueMap](https://bluemap.bluecolored.de/) 2.7+
 
 ### Installation
 
 1. Download `BorderAndFrontlines-1.2.jar` from [Releases](https://github.com/1tzArad/BorderAndFrontlines/releases).
 2. Place the jar in your server's `plugins/` folder.
-3. Ensure AnbeEconomy is also in `plugins/` and is enabled before BAF.
+3. Ensure FrontlineEconomy is also in `plugins/` and is enabled before BAF.
 4. Start or restart the server.
 
 On first startup, BAF will generate `plugins/BorderAndFrontlines/config.yml`.
@@ -108,11 +108,11 @@ The compiled jar will be at `target/BorderAndFrontlines-1.2.jar`.
 
 ### Dependencies
 
-BAF depends on AnbeEconomy which is not published to Maven Central. You have two options:
+BAF depends on FrontlineEconomy which is not published to Maven Central. You have two options:
 
-**Option A:** Install AnbeEconomy to your local Maven repository:
+**Option A:** Install FrontlineEconomy to your local Maven repository:
 ```bash
-# From the AnbeEconomy project
+# From the FrontlineEconomy project
 mvn install
 ```
 
