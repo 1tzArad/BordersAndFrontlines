@@ -127,9 +127,8 @@
 
         <dependency>
             <groupId>com.github.1tzArad</groupId>
-            <artifactId>FrontlineEconomy</artifactId>
+	        <artifactId>FrontlineEconomy</artifactId>
             <version>0.1.17</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
